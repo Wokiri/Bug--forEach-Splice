@@ -43,7 +43,7 @@ const professionals = [{
 ]
 
 let modifiedEntries = professionals
-    .filter((elem) => (elem.Passion))
+    .filter(elem => elem.Passion)
 
 console.log(modifiedEntries)
 
